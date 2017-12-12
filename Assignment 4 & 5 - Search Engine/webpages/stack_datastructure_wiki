@@ -1,0 +1,13 @@
+Stack (abstract data type)
+From Wikipedia, the free encyclopedia
+In computer science, a stack or LIFO (last in, first out) is an abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the last element that was added.
+The term LIFO stems from the fact that, using these operations, each element "popped off" a stack in series of pushes and pops is the last (most recent) element that was "pushed into" within the sequence. This is equivalent to the requirement that, considered as a linear data structure, or more abstractly a sequential collection, the push and pop operations occur only at one end of the structure, referred to as the top of the stack. (Additionally, a peek operation may give access to the top.)
+A stack may be implemented to have a bounded capacity. If the stack is full and does not contain enough space to accept an entity to be pushed, the stack is then considered to be in an overflow state. The pop operation removes an item from the top of the stack. A pop either reveals previously concealed items or results in an empty stack, but, if the stack is empty, it goes into underflow state, which means no items are present in stack to be removed.
+A stack is a restricted data structure, because only a small number of operations are performed on it. The nature of the pop and push operations also means that stack elements have a natural order. Elements are removed from the stack in the reverse order to the order of their addition. Therefore, the lower elements are those that have been on the stack the longest.
+
+History
+The stack was first proposed in 1946, in the computer design of Alan M. Turing (who used the terms "bury" and "unbury") as a means of calling and returning from subroutines.
+The term stack may have originated by analogy to a spring-loaded stack of plates in a cafeteria. Clean plates are placed on top of the stack, pushing down any already there. When a plate is removed from the stack the one below it pops up to become the new top.
+
+Non-essential operations
+In many implementations, a stack has more operations than "push" and "pop". An example is "top of stack", or "peek", which observes the top-most element without removing it from the stack. Since this can be done with a "pop" and a "push" with the same data, it is not essential. An underflow condition can occur in the "stack top" operation if the stack is empty, the same as "pop". Also, implementations often have a function which just returns whether the stack is empty.

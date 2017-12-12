@@ -1,0 +1,9 @@
+Another way of storing data is in a stack. A stack is generally implemented with only two principle operations (apart from a constructor and destructor methods):
+push	adds an item to a stack
+pop	extracts the most recently pushed item from the stack
+Other methods such as
+top	returns the item at the top without removing it 
+isempty	determines whether the stack has anything in it
+
+A common model of a stack is a plate or coin stacker. Plates are "pushed" onto to the top and "popped" off the top.
+
