@@ -1,0 +1,6 @@
+.gitignore.sw*
+*/.classpath
+*/.project
+*/bin
+*/*.class
+*/._*
