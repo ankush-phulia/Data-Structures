@@ -1,5 +1,5 @@
-# COL-106
-Projects done in Data Structures and Algorithms, 2015
+# Data Structures and Algorithms
+Projects done in COL 106 - Data Structures and Algorithms, 2015
 
 1. Implementation of Stack and Queue, checking stack sortability of a permutation
 
